@@ -10,7 +10,7 @@ print("[yellow]Получаю список пользователей...[/yellow
 
 def get_id():
     data = requests.get("https://api.vk.com/method/friends.getSuggestions", params={
-        "v": 5.103,
+        "v": 5.131,
         "count": 500,
         "filter": "mutual",
         "access_token": token,
