@@ -8,7 +8,7 @@ import sys
 
 cls()
 
-v = 5.21
+v = 5.131
 
 try:
     conn = sqlite3.connect('accounts.db')
