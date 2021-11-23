@@ -22,7 +22,7 @@ token = input("Введите токен: ")
 
 
 info = requests.get('https://api.vk.com/method/users.get', params={
-        'v': 5.21,
+        'v': 5.131,
         'name_case': 'Nom',
         'access_token': token,
         'fields': 'photo_max_orig,counters'
